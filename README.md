@@ -19,7 +19,7 @@ apt-cache policy docker-ce
 Tâche n°6 : Installer Docker
 sudo apt install docker-ce
 
-Tâche n°7 : Clonnee le git 
+Tâche n°7 : Clonnee le git :
 git clone https://github.com/amirouchef/docker-glpi.git
 
 Tâche n°8 : Deploy GLPI 
