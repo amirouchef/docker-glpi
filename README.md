@@ -26,7 +26,7 @@ git clone https://github.com/amirouchef/docker-glpi.git
 cd docker-glpi  
 sudo docker run --name mariadb -e MARIADB_ROOT_PASSWORD=root -e MARIADB_DATABASE=glpidb -e MARIADB_USER=glpi_user -e MARIADB_PASSWORD=glpi -d mariadb:10.7  
 sudo docker build -t monglpi .  
-docker run --name glpi --link mariadb:mariadb  -d -p 80:80 monglpi  
+sudo docker run --name glpi --link mariadb:mariadb  -d -p 80:80 monglpi  
 
 **Tâche n°9 : Finaliser l'installation depuis la navigateur**   
 @IP pour la base de donner renseignez : database : mariadb | username : glpi_user| password : glpi  
