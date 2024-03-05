@@ -4,7 +4,7 @@
 sudo apt install  apt-transport-https  ca-certificates  curl  software-properties-common  
 
 **Tâche n°2 : Ajouter la clé GPG du dépôt officiel de Docker au système**  
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add --  
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add --  
 sudo cp /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d  
 
 **Tâche n°3 : Ajouter le référentiel Docker aux sources APT**  
